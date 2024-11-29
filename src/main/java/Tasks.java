@@ -7,7 +7,7 @@ public class Tasks {
     public static void main(String[] args) {
         nums();
         strings();
-        arr();
+        array();
     }
 
     public static void nums() {
@@ -37,7 +37,7 @@ public class Tasks {
         System.out.println(a.equals(b) ? "Строки идентичны" : "Строки неидентичны");
     }
 
-    public static void arr() {
+    public static void array() {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         Arrays.stream(arr)
                 .filter(num -> num % 2 == 0)
